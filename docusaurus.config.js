@@ -15,6 +15,8 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'go-asset', // Usually your GitHub org/user name.
   projectName: 'go-asset.github.io', // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: true,
 
   presets: [
     [
@@ -53,7 +55,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           }
         ],
       },
